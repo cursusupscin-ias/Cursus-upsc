@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>CURSUS UPSC — Resource Library</title>
+<meta name="description" content="CURSUS UPSC Resource Library — READ • REVISE • REMEMBER">
+<style>
+:root{--black:#0B0D0F;--paper:#F8F8F5;--graphite:#24272B;--gold:#C9A227;--muted:#73777D;--line:#D9D9D4;--white:#fff;--shadow:0 18px 50px rgba(11,13,15,.10)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--black);font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",Arial,sans-serif}button,input,textarea{font:inherit}a{text-decoration:none;color:inherit}.container{width:min(1180px,calc(100% - 36px));margin:auto}.topbar{height:4px;background:var(--gold)}
+nav{border-bottom:1px solid var(--line);background:rgba(248,248,245,.94);position:sticky;top:0;z-index:20;backdrop-filter:blur(12px)}.navin{height:76px;display:flex;align-items:center;justify-content:space-between}.brand{display:flex;align-items:center;gap:12px}.logo{height:44px;width:auto;object-fit:contain}.brandtext{font-weight:800;letter-spacing:.16em;font-size:15px}.brandsub{font-size:10px;color:var(--gold);letter-spacing:.22em;margin-top:2px}.navlinks{display:flex;gap:20px;font-size:13px;align-items:center;color:var(--muted)}.secret-trigger{background:transparent;border:0;color:var(--muted);cursor:pointer;font-size:11px;letter-spacing:.1em}.secret-trigger:hover{color:var(--gold)}
+.hero{padding:76px 0 54px;border-bottom:1px solid var(--line)}.kicker{font-size:11px;font-weight:800;letter-spacing:.24em;color:var(--gold);text-transform:uppercase}h1{font-size:clamp(42px,7vw,78px);line-height:.94;letter-spacing:-.055em;margin:16px 0 22px;max-width:850px}.hero p{max-width:650px;font-size:18px;line-height:1.65;color:var(--muted);margin:0}
+
+/* SECURE PUBLISHER PANEL */
+.publisher-panel{background:var(--white);border:2px dashed var(--gold);padding:30px;margin:30px 0;display:none;border-radius:8px}.publisher-panel.active{display:block}.publisher-panel h3{margin-top:0;font-size:20px;letter-spacing:-.02em}.form-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:15px;margin-bottom:15px}.form-group{display:flex;flex-direction:column;gap:5px}.form-group label{font-size:11px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}.form-group input,.form-group textarea{border:1px solid var(--line);background:var(--paper);padding:10px 12px;font-size:14px;outline:0}.form-group textarea{resize:vertical;height:80px}.admin-actions{display:flex;gap:10px;justify-content:space-between;align-items:center;margin-top:20px;border-top:1px solid var(--line);padding-top:15px}
+
+.controls{padding:28px 0 10px}.search{display:flex;align-items:center;border:1px solid var(--line);background:var(--white);box-shadow:var(--shadow);height:56px;padding:0 17px}.search svg{width:20px;color:var(--muted);flex:none}.search input{border:0;outline:0;width:100%;padding:0 12px;background:transparent;font-size:15px}.filters{display:flex;flex-wrap:wrap;gap:8px;margin:16px 0 0}.filter{border:1px solid var(--line);background:transparent;padding:9px 14px;font-size:12px;cursor:pointer}.filter.active,.filter:hover{background:var(--black);color:var(--paper);border-color:var(--black)}
+
+.sectionhead{display:flex;justify-content:space-between;align-items:end;margin:38px 0 18px}.sectionhead h2{font-size:24px;letter-spacing:-.025em;margin:0}.count{font-size:12px;color:var(--muted)}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;padding-bottom:80px}.card{background:var(--white);border:1px solid var(--line);display:flex;flex-direction:column;min-height:310px;transition:.18s ease;overflow:hidden}.card:hover{transform:translateY(-3px);box-shadow:var(--shadow);border-color:#c5c5bf}.cardtop{padding:22px 22px 0;display:flex;justify-content:space-between;align-items:start}.tag{font-size:9px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--gold);border:1px solid #e3d59e;padding:5px 7px}.pages{font-size:11px;color:var(--muted)}.cardbody{padding:20px 22px}.card h3{font-size:22px;line-height:1.08;letter-spacing:-.025em;margin:0 0 10px}.subtitle{font-size:13px;line-height:1.5;color:var(--muted);min-height:42px}.meta{display:flex;flex-wrap:wrap;gap:7px;margin:18px 0 20px}.meta span{font-size:10px;background:#f0f0ec;padding:6px 8px;color:#4e5257}.cardfoot{margin-top:auto;border-top:1px solid var(--line);display:grid;grid-template-columns:1fr 1fr}.btn{border:0;background:transparent;padding:14px 12px;cursor:pointer;font-size:11px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;text-align:center}.btn+.btn{border-left:1px solid var(--line)}.btn.primary{background:var(--black);color:var(--paper)}.btn:hover{opacity:.82}.empty{display:none;text-align:center;padding:70px 20px;color:var(--muted)}
+
+footer{background:var(--black);color:var(--paper);padding:42px 0}.footerin{display:flex;justify-content:space-between;gap:30px;align-items:end}.footerbrand{font-weight:800;letter-spacing:.16em}.footerline{font-size:10px;letter-spacing:.2em;color:#bfc1c3;margin-top:8px}.footernote{font-size:11px;color:#9da1a5;text-align:right;line-height:1.7}
+.modal{position:fixed;inset:0;background:rgba(11,13,15,.72);display:none;z-index:50;padding:30px}.modal.open{display:flex;align-items:center;justify-content:center}.modalbox{width:min(1100px,100%);height:min(88vh,900px);background:var(--paper);display:flex;flex-direction:column}.modalhead{padding:14px 18px;border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between}.modaltitle{font-weight:800;font-size:14px}.close{border:1px solid var(--line);background:transparent;width:34px;height:34px;cursor:pointer}.viewer{background:#333;flex:1;min-height:0}.viewer iframe{width:100%;height:100%;border:0}.modalnote{font-size:11px;color:var(--muted);padding:9px 15px;border-top:1px solid var(--line)}
+@media(max-width:850px){.grid{grid-template-columns:repeat(2,1fr)}.navlinks span{display:none}}@media(max-width:560px){.container{width:min(100% - 24px,1180px)}.hero{padding:52px 0 42px}h1{font-size:47px}.grid{grid-template-columns:1fr}.form-grid{grid-template-columns:1fr}.footerin{display:block;text-align:left}.footernote{margin-top:20px}.modal{padding:10px}}
+</style>
+</head>
+<body>
+<div class="topbar"></div>
+<nav><div class="container navin">
+<a class="brand" href="#"><img class="logo" id="navLogo" alt="CURSUS UPSC logo"><div><div class="brandtext">CURSUS UPSC</div><div class="brandsub">READ • REVISE • REMEMBER</div></div></a>
+<div class="navlinks"><a href="#library">Library</a><a href="#about">About</a><button class="secret-trigger" id="secretLogin">Publisher Access</button></div>
+</div></nav>
+<main>
+<section class="hero"><div class="container"><div class="kicker">CURSUS RESOURCE LIBRARY</div><h1>Study with a<br>clearer map.</h1><p>A growing collection of carefully structured resources for UPSC CSE — built to help you understand, revise and remember what matters.</p>
+  
+  <!-- PUBLISHER PANEL -->
+  <div class="publisher-panel" id="publisherPanel">
+    <h3>Publisher Station — Add New Resource</h3>
+    <form id="uploadForm">
+      <div class="form-grid">
+        <div class="form-group"><label>Resource Title</label><input type="text" id="pTitle" placeholder="e.g. INDIAN ECONOMY MODULE 1" required></div>
+        <div class="form-group"><label>Subtitle / Tagline</label><input type="text" id="pSubtitle" placeholder="e.g. CURSUS Foundation Series · Economy" required></div>
+        <div class="form-group"><label>Category</label><input type="text" id="pCategory" placeholder="e.g. Economy" required></div>
+        <div class="form-group"><label>Page Count</label><input type="text" id="pPages" placeholder="e.g. 54 pages" required></div>
+        <div class="form-group"><label>PDF File Name or URL</label><input type="text" id="pFile" placeholder="resources/economy_mod1.pdf" required></div>
+        <div class="form-group"><label>Tags (Comma separated)</label><input type="text" id="pTags" placeholder="Prelims, GS III, Core"></div>
+      </div>
+      <div class="form-group"><label>Description</label><textarea id="pDesc" placeholder="Brief note on what this module covers..."></textarea></div>
+      <div class="admin-actions">
+        <button type="submit" class="btn primary" style="padding:12px 24px;">Publish Resource</button>
+        <button type="button" class="btn" style="color:#b91c1c;" id="clearAllBtn">Delete All</button>
+      </div>
+    </form>
+  </div>
+
+</div></section>
+
+<section class="container controls" id="library"><div class="search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg><input id="search" type="search" placeholder="Search resources, subjects, topics..."></div><div class="filters" id="filters"></div></section>
+<section class="container"><div class="sectionhead"><h2>Resources</h2><div class="count" id="count"></div></div><div class="grid" id="grid"></div><div class="empty" id="empty">No resources available right now. Check back soon.</div></section>
+<section class="container" id="about" style="padding:0 0 80px"><div style="border-top:1px solid var(--line);padding-top:25px;max-width:700px"><div class="kicker">ABOUT CURSUS</div><p style="font-size:15px;line-height:1.7;color:var(--muted)">CURSUS UPSC creates focused educational resources designed around clarity, retention and UPSC relevance.</p></div></section>
+</main>
+<footer><div class="container footerin"><div><div class="footerbrand">CURSUS UPSC</div><div class="footerline">READ • REVISE • REMEMBER</div></div><div class="footernote">CURSUS Resource Library<br>Educational resources for UPSC CSE aspirants.</div></div></footer>
+<div class="modal" id="modal" aria-hidden="true"><div class="modalbox"><div class="modalhead"><div class="modaltitle" id="modalTitle">Preview</div><button class="close" id="close">×</button></div><div class="viewer"><iframe id="pdfFrame" title="PDF preview"></iframe></div><div class="modalnote">If preview fails, use the Download button.</div></div></div>
+
+<script>
+const LOGO="logo.png";
+const SECURE_KEY = "TXlzZWxma3BAMjIxMjIwMDU="; // Hidden secure password key
+
+// PRE-LOADED UPSC RESOURCES (Visible for everyone automatically)
+let resources = JSON.parse(localStorage.getItem("cursus_resources")) || [
+  {
+    id: "res-syllabus",
+    title: "UPSC Civil Services Syllabus Decoded",
+    subtitle: "CURSUS Foundation Series · Master Guide",
+    category: "Syllabus",
+    pages: "Core Guide",
+    file: "resources/upsc-syllabus-decoded.pdf",
+    tags: ["Prelims", "Mains", "Must Read"],
+    description: "A complete, decoded breakdown of the UPSC Civil Services Examination syllabus to anchor your preparation."
+  }
+];
+
+function saveResources() {
+  localStorage.setItem("cursus_resources", JSON.stringify(resources));
+}
+
+const grid=document.getElementById("grid"),search=document.getElementById("search"),filters=document.getElementById("filters"),count=document.getElementById("count"),empty=document.getElementById("empty");let active="All";
+const esc=s=>String(s??"").replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"}[m]));
+
+function categories(){return["All",...new Set(resources.map(r=>r.category))]}
+function renderFilters(){filters.innerHTML=categories().map(c=>`<button class="filter ${c===active?"active":""}" data-cat="${esc(c)}">${esc(c)}</button>`).join("");filters.querySelectorAll(".filter").forEach(b=>b.onclick=()=>{active=b.dataset.cat;renderFilters();render()})}
+
+function card(r){
+  return `<article class="card">
+    <div class="cardtop"><span class="tag">${esc(r.category)}</span><span class="pages">${esc(r.pages||"")}</span></div>
+    <div class="cardbody">
+      <h3>${esc(r.title)}</h3>
+      <div class="subtitle">${esc(r.subtitle)}</div>
+      <div class="meta">${(r.tags||[]).map(t=>`<span>${esc(t)}</span>`).join("")}</div>
+      <div style="font-size:12px;line-height:1.6;color:var(--muted)">${esc(r.description||"")}</div>
+    </div>
+    <div class="cardfoot">
+      <button class="btn" data-preview="${esc(r.file)}">Read online</button>
+      <a class="btn primary" href="${esc(r.file)}" download>Download PDF</a>
+    </div>
+  </article>`
+}
+
+function render(){
+  const q=search.value.trim().toLowerCase();
+  const list=resources.filter(r=>{
+    const hay=[r.title,r.subtitle,r.category,r.description,...(r.tags||[])].join(" ").toLowerCase();
+    return(active==="All"||r.category===active)&&(!q||hay.includes(q))
+  });
+  count.textContent=`${list.length} resource${list.length===1?"":"s"}`;
+  empty.style.display=list.length?"none":"block";
+  grid.innerHTML=list.map(card).join("");
+  grid.querySelectorAll("[data-preview]").forEach(b=>b.onclick=()=>preview(b.dataset.preview))
+}
+
+// Secure Password Verification
+document.getElementById("secretLogin").onclick = () => {
+  const p = prompt("Enter Publisher Password:");
+  if(p && btoa(p) === SECURE_KEY) {
+    document.getElementById("publisherPanel").classList.toggle("active");
+    alert("Publisher Mode Unlocked!");
+  } else if(p !== null) {
+    alert("Incorrect Password");
+  }
+};
+
+// Form Submit Handler
+document.getElementById("uploadForm").onsubmit = (e) => {
+  e.preventDefault();
+  const newRes = {
+    id: "res-" + Date.now(),
+    title: document.getElementById("pTitle").value,
+    subtitle: document.getElementById("pSubtitle").value,
+    category: document.getElementById("pCategory").value,
+    pages: document.getElementById("pPages").value,
+    file: document.getElementById("pFile").value,
+    tags: document.getElementById("pTags").value.split(",").map(t=>t.trim()).filter(Boolean),
+    description: document.getElementById("pDesc").value
+  };
+  
+  resources.unshift(newRes);
+  saveResources();
+  document.getElementById("uploadForm").reset();
+  document.getElementById("publisherPanel").classList.remove("active");
+  renderFilters();
+  render();
+  alert("Resource Published Successfully!");
+};
+
+document.getElementById("clearAllBtn").onclick = () => {
+  if(confirm("WARNING: Delete all resources?")) {
+    resources = [];
+    saveResources();
+    renderFilters();
+    render();
+  }
+};
+
+const modal=document.getElementById("modal"),frame=document.getElementById("pdfFrame"),modalTitle=document.getElementById("modalTitle");
+function preview(file){const r=resources.find(x=>x.file===file);modalTitle.textContent=r?r.title:"PDF Preview";frame.src=file+"#view=FitH";modal.classList.add("open");modal.setAttribute("aria-hidden","false")}
+function closeModal(){frame.src="";modal.classList.remove("open");modal.setAttribute("aria-hidden","true")}
+document.getElementById("close").onclick=closeModal;modal.onclick=e=>{if(e.target===modal)closeModal()};document.addEventListener("keydown",e=>{if(e.key==="Escape")closeModal()});search.addEventListener("input",render);
+document.getElementById("navLogo").src=LOGO;
+renderFilters();render();
+</script>
+</body></html>
